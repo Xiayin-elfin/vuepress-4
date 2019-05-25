@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f16e5cb6f62c68af0bfd803d3ebd94d8"
+    "revision": "a18f6953ba9f037cf1966173e28423bf"
   },
   {
     "url": "assets/css/0.styles.07612dee.css",
@@ -64,44 +64,60 @@ self.__precacheManifest = [
     "revision": "e7e18c39aca19d56bcd067fdf9782fc9"
   },
   {
+    "url": "assets/img/form_1.ef22e6f6.png",
+    "revision": "ef22e6f6c18c0395088a6263897e4e90"
+  },
+  {
+    "url": "assets/img/form_2.686c299a.png",
+    "revision": "686c299a3bafda9047fc3d5b51a8d738"
+  },
+  {
     "url": "assets/img/search.83621669.svg",
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/2.1e152a64.js",
-    "revision": "0ab3ab1afc2b5560eade436e26e4d06e"
+    "url": "assets/js/2.130f07d7.js",
+    "revision": "96db7be6e320d048d0efacb3cbc2651f"
   },
   {
-    "url": "assets/js/3.7dfec3e4.js",
-    "revision": "380a8c2b3054ff274d36f9ff7af597b1"
+    "url": "assets/js/3.2d1fa121.js",
+    "revision": "c0f87cf899e6c8a05a262263cc9ce045"
   },
   {
-    "url": "assets/js/4.9eb774fe.js",
-    "revision": "e90851753f0eadf5443b055102d72467"
+    "url": "assets/js/4.d957abb6.js",
+    "revision": "1c723f3b8dffa08be7f839cd16604eee"
   },
   {
-    "url": "assets/js/5.e72d58eb.js",
-    "revision": "49cd6dd2570ce60654f890d69bec8c1e"
+    "url": "assets/js/5.752f29fd.js",
+    "revision": "b537912aa65caefa1f0d674ca40933e7"
   },
   {
-    "url": "assets/js/6.850f8313.js",
-    "revision": "e28dcec36922817dbcecb915b4c24c61"
+    "url": "assets/js/6.7077f411.js",
+    "revision": "977748e26e6dff1148702cd23230de92"
   },
   {
-    "url": "assets/js/app.d7fa0e51.js",
-    "revision": "23d9f9d30d3f21cac543c89208e86648"
+    "url": "assets/js/7.3b5dc736.js",
+    "revision": "ff5941761dcb1c83d780af735962ed19"
   },
   {
-    "url": "blog/demo1.html",
-    "revision": "4dc31cb7a514530749b7b42850324959"
+    "url": "assets/js/app.6161bc83.js",
+    "revision": "a009c650dbf40ae8579648be5c31b2ef"
   },
   {
-    "url": "blog/index.html",
-    "revision": "bdb14c01d92608c1ddb43ad63c7b52ca"
+    "url": "blog/form表单提交/demo.html",
+    "revision": "9d99546350cecd7be6965195fea0871d"
+  },
+  {
+    "url": "blog/margin踩坑总结及纯CSS实现导航栏动画/demo2.html",
+    "revision": "b09a061fbfadd339c04fb63c69462229"
+  },
+  {
+    "url": "blog/搭建vue项目并且vuePress的使用/demo1.html",
+    "revision": "8b613a7a82cc3017c89d377640cc89e2"
   },
   {
     "url": "index.html",
-    "revision": "1cb87b77f9bb812ce7d0c7224d6b6e2d"
+    "revision": "24a9115146af8bbfedefc840207a9fb2"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

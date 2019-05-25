@@ -7,7 +7,7 @@
     <meta name="description" content="Just playing">
     
     
-    <link rel="preload" href="/vuepress-4/assets/css/0.styles.07612dee.css" as="style"><link rel="preload" href="/vuepress-4/assets/js/app.d7fa0e51.js" as="script"><link rel="preload" href="/vuepress-4/assets/js/3.7dfec3e4.js" as="script"><link rel="prefetch" href="/vuepress-4/assets/js/2.1e152a64.js"><link rel="prefetch" href="/vuepress-4/assets/js/4.9eb774fe.js"><link rel="prefetch" href="/vuepress-4/assets/js/5.e72d58eb.js"><link rel="prefetch" href="/vuepress-4/assets/js/6.850f8313.js">
+    <link rel="preload" href="/vuepress-4/assets/css/0.styles.07612dee.css" as="style"><link rel="preload" href="/vuepress-4/assets/js/app.6161bc83.js" as="script"><link rel="preload" href="/vuepress-4/assets/js/3.2d1fa121.js" as="script"><link rel="prefetch" href="/vuepress-4/assets/js/2.130f07d7.js"><link rel="prefetch" href="/vuepress-4/assets/js/4.d957abb6.js"><link rel="prefetch" href="/vuepress-4/assets/js/5.752f29fd.js"><link rel="prefetch" href="/vuepress-4/assets/js/6.7077f411.js"><link rel="prefetch" href="/vuepress-4/assets/js/7.3b5dc736.js">
     <link rel="stylesheet" href="/vuepress-4/assets/css/0.styles.07612dee.css">
   </head>
   <body>
@@ -72,6 +72,6 @@ git commit -m 'deploy'
 
 cd -
 </code></pre></div><p>配上一张自己config.js的相关配置，比较简单，仅供参考。</p> <p><img src="/vuepress-4/assets/img/demo-5.9ddfd9b2.png" alt></p> <h4 id="上传步骤"><a href="#上传步骤" aria-hidden="true" class="header-anchor">#</a> 上传步骤</h4> <p>1、执行<code>npm run docs:dev</code>命令，本地打包生成dist文件；</p> <p>2、进入到<code>.vuepress/dist</code>文件夹下，执行上面的<code>deploy.sh</code>文件中的操作到<code>git commit -m deploy</code>的步骤；</p> <p>3、连接本地远程仓库地址（首先你要建好自己的仓库），执行命令<code>git remote add origin xxx.git</code></p> <p>4、可以执行<code>git remote -v</code>查看是否连接成功；</p> <p>5、执行<code>git push origin master</code>，将代码push到自己本地的远程仓库；</p> <p>6、刷新自己github页面，此时不出意外的情况下代码已经上传成功；</p> <p>7、接下来进入到自己仓库的设置页面，找到<code>GitHub Pages</code>中的<code>Source</code>，点击下拉框设置为<code>master branch</code>分支；</p> <p><img src="/vuepress-4/assets/img/demo-3.3a7bbd6a.png" alt> <img src="/vuepress-4/assets/img/demo-4.ee8a8510.png" alt></p> <p>8、此时会出现一个地址，如图上面的绿色部分，打开这个地址等候10秒钟左右就会出现页面了，然后写上你自己文档的正确地址就基本成功了（https://xiayin-elfin.github.io/vuepress-4/blog/demo1.html）</p> <h4 id="遇到的问题"><a href="#遇到的问题" aria-hidden="true" class="header-anchor">#</a> 遇到的问题</h4> <p>1、按照官方文档的操作，执行<code>git push -f git@github.com:&lt;USERNAME&gt;/&lt;REPO&gt;.git master:gh-pages</code>，会出现连接不到自己本地的远程仓库地址，那就干脆不用这个命令了，执行上述步骤（3）就可以了；</p> <p>2、执行到第8步，发现页面404，或者页面出来了但是样式404，一般情况下就是打包后的路径问题了，那就重新打一次包执行<code>npm run docs:build</code>命令，将生成dist文件夹下的文件替换到<code>.vuepress/dist</code>文件夹下，再提交一次。</p> <h4 id="推荐"><a href="#推荐" aria-hidden="true" class="header-anchor">#</a> 推荐</h4> <p>前提：你用的编辑器是vscode，其他的编辑器自己找吧。</p> <p>在vuepress安装成功之后，编写markdown文档的时候，可以安装<code>Markdown Preview Enhanced</code>插件，可以方便你一边编写一遍查看效果，很方便。</p> <p>具体的使用方式在你安装插件的时候里面就有介绍，详情自己看看吧。</p></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
-    <script src="/vuepress-4/assets/js/app.d7fa0e51.js" defer></script><script src="/vuepress-4/assets/js/3.7dfec3e4.js" defer></script>
+    <script src="/vuepress-4/assets/js/app.6161bc83.js" defer></script><script src="/vuepress-4/assets/js/3.2d1fa121.js" defer></script>
   </body>
 </html>
