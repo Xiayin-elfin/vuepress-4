@@ -5,7 +5,7 @@
 
 2、form表单提交的四种方式：https://xiayin-elfin.github.io/vuepress-4/blog/form%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4/demo.html
 
-3、margin踩坑总结及纯CSS实现导航栏跟随动画：
+3、纯CSS实现导航栏跟随动画：
 https://xiayin-elfin.github.io/vuepress-4/blog/CSS%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F%E5%8A%A8%E7%94%BB/demo.html
 
 
