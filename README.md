@@ -11,4 +11,4 @@
 
 5、[this总结](https://xiayin-elfin.github.io/vuepress-4/blog/this%E6%80%BB%E7%BB%93/demo.html)
 
-6、[SVG路径描边](https://xiayin-elfin.github.io/vuepress-4/blog/svg%E8%B7%AF%E5%BE%84%E6%8F%8F%E8%BE%B9/demo.html)
+6、[svg路径描边](https://xiayin-elfin.github.io/vuepress-4/blog/svg%E8%B7%AF%E5%BE%84%E6%8F%8F%E8%BE%B9/demo.html)
