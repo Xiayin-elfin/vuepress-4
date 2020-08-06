@@ -21,4 +21,4 @@
 
 10、[javascript运行机制](https://xiayin-elfin.github.io/vuepress-4/blog/javascript运行机制/demo.html)
 
-11、[JS总结之DOM操作](https://xiayin-elfin.github.io/vuepress-4/blog/JS总结之DOM操作/demo.html)
+11、[JS总结之DOM操作](https://xiayin-elfin.github.io/vuepress-4/blog/JS总结之DOM操作（一）/demo.html)
